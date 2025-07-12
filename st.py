@@ -68,13 +68,13 @@ st.markdown("""
 st.subheader("A Little Poem Just for You 🌸")
 st.markdown("""
 <div class="poem">
-    In every laugh and every tear,<br>
-    You're the one I hold so dear.<br><br>
+    In every laugh and every tear,
+    You're the one I hold so dear.
 
-    Anger fades but love remains,<br>
-    Let’s heal hearts and break the chains.<br><br>
+    Anger fades but love remains,
+    Let’s heal hearts and break the chains.
 
-    I’m sorry, Laya — please don’t stay mad,<br>
+    I’m sorry, Laya — please don’t stay mad,
     Without your smile, my world feels sad.
 </div>
 """, unsafe_allow_html=True)
