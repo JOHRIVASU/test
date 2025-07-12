@@ -1,7 +1,5 @@
 import streamlit as st
-import time
 
-# Page config
 st.set_page_config(page_title="I'm Sorry, Laya 💖", page_icon="💌", layout="centered")
 
 # Custom styles
@@ -36,10 +34,11 @@ st.markdown("""
         font-size: 20px;
         text-align: center;
         color: #333;
-        padding: 20px;
+        padding: 30px;
         border-left: 5px solid #ff4b4b;
         background-color: #fff5f5;
         margin-top: 30px;
+        border-radius: 12px;
     }
     .forgive {
         text-align: center;
@@ -48,27 +47,25 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Title
+# Title & heart
 st.markdown('<div class="title">I’m Sorry, Laya 💔</div>', unsafe_allow_html=True)
 st.markdown('<div class="heart">❤️</div>', unsafe_allow_html=True)
 
-# Apology message
+# Clean message block
 st.markdown("""
 <div class="message">
-    <p>Your smile means the world to me.</p>
-    <p>Your silence... it’s quietly breaking my heart. 💔</p>
+    Your smile means the world to me.<br>
+    Your silence... it’s quietly breaking my heart. 💔<br><br>
 
-    <p>I’m truly sorry for hurting you, Laya.<br>
-    Please forgive me — not just with words, but with your heart.</p>
-
-    <p>Let’s fix this — not stay mad, but grow stronger. 🤝<br>
-    Because losing you is something I can't bear.</p>
+    I’m truly sorry for hurting you, Laya. Please forgive me.<br><br>
+    
+    Let’s fix this — not stay mad, but grow stronger together. 🤝<br>
+    Because losing you is something I can't bear.
 </div>
 """, unsafe_allow_html=True)
 
-# Poem section
+# Poem block (now clean and centered, no <br>)
 st.subheader("A Little Poem Just for You 🌸")
-
 st.markdown("""
 <div class="poem">
     In every laugh and every tear,<br>
