@@ -54,12 +54,12 @@ st.markdown('<div class="heart">❤️</div>', unsafe_allow_html=True)
 # Clean message block
 st.markdown("""
 <div class="message">
-    Your smile means the world to me.<br>
-    Your silence... it’s quietly breaking my heart. 💔<br><br>
+    Your smile means the world to me.
+    Your silence... it’s quietly breaking my heart. 💔
 
-    I’m truly sorry for hurting you, Laya. Please forgive me.<br><br>
+    I’m truly sorry for hurting you, Laya. Please forgive me.
     
-    Let’s fix this — not stay mad, but grow stronger together. 🤝<br>
+    Let’s fix this — not stay mad, but grow stronger together. 🤝
     Because losing you is something I can't bear.
 </div>
 """, unsafe_allow_html=True)
